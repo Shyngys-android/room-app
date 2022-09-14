@@ -11,7 +11,7 @@ interface EmployeeDao {
     @Query("SELECT * FROM employee_table WHERE id=:id")
     fun getEmployeeById(id: Int) : LiveData<Employee>
 
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(employee: Employee)
 
     @Delete
