@@ -11,5 +11,5 @@ data class Employee(
     @PrimaryKey(autoGenerate = true)
     val id: Int? = null,
     val name: String,
-    val salary: Int
+    val salary: String
 ) : Parcelable

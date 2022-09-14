@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/bakbe/Android studio projects/RoomApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.114" />
         <entry key="..\:/Users/bakbe/Android studio projects/RoomApp/app/src/main/res/layout/activity_main.xml" value="0.13360507246376813" />
-        <entry key="..\:/Users/bakbe/Android studio projects/RoomApp/app/src/main/res/layout/adapter_employee.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/bakbe/Android studio projects/RoomApp/app/src/main/res/layout/adapter_employee.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/bakbe/Android studio projects/RoomApp/app/src/main/res/layout/fragment_employee.xml" value="0.13360507246376813" />
         <entry key="..\:/Users/bakbe/Android studio projects/RoomApp/app/src/main/res/layout/fragment_employee_list.xml" value="0.13360507246376813" />
       </map>
