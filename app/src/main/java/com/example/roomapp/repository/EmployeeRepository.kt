@@ -1,6 +1,7 @@
 package com.example.roomapp.repository
 
 import android.content.Context
+import androidx.lifecycle.LiveData
 import com.example.roomapp.database.Employee
 import com.example.roomapp.database.EmployeeDatabase
 import kotlinx.coroutines.CoroutineScope
@@ -24,6 +25,12 @@ class EmployeeRepository {
             CoroutineScope(IO).launch {
                 employeeDatabase!!.getEmployeeDao().insert(employee)
             }
+        }
+
+        fun getEmployeeList(context: Context): LiveData<List<Employee>> {
+            employeeDatabase = initializeDb(context)
+
+            return employeeDatabase!!.getEmployeeDao().getAll()
         }
     }
 }
